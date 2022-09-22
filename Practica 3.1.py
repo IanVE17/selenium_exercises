@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 import pandas as pd
 
 # Seleccionar el WebDriver y definir la URL
-d = webdriver.Chrome(executable_path=r"C:\Users\Dell\Documents\IAN\Universidad\7 Semestre\Calidad de Software\chromedriver.exe")
+d = webdriver.Chrome(executable_path=r"C:\Users\ianve\Documents\Universidad\7 Semestre\Calidad de Software\chromedriver.exe")
 d.get("https://clima.com")
 
 # Encontrar los elementos 
